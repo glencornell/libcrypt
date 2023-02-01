@@ -7,6 +7,8 @@ Crypt library for DES, MD5 for uClibc
 The primary purpose of this library was to port it to the ESP32 MCU as
 a dependency for libpcap.
 
+This code has been extracted from [uclibc-ng](https://cgit.uclibc-ng.org/cgi/cgit/uclibc-ng.git/tree/libcrypt).
+
 ## Build
 
 ```bash
