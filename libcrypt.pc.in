@@ -1,0 +1,11 @@
+# pkg-config file for libcrypt
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+libdir=@libdir@
+
+Name: libcrypt
+Description: Crypt library for DES, MD5
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lcrypt
+Cflags: -I${includedir}
